@@ -1,0 +1,73 @@
+Package: com.saurik.substrate.safemode
+Version: 0.9.6001
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 156
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: ./com.saurik.substrate.safemode_0.9.6001_iphoneos-arm.deb
+Size: 13226
+MD5sum: 5e9905d35c71075b2a7f0aed5cd4b1db
+SHA1: 916af06e0c879233ff22d795b04abf8276ff905b
+SHA256: 86515cb9f6832247dbeae8427b996099dc8759bb1ef1d719c293123f2f531ee1
+Section: Tweaks
+Priority: optional
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+Name: Substrate Safe Mode
+
+Package: com.skyglow.tlsfix
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: nfzerox, Requis
+Depends: mobilesubstrate
+Conflicts: com.tlsfix
+Filename: ./com.skyglow.tlsfix_1.1_iphoneos-arm.deb
+Size: 3311252
+MD5sum: ba9af608830dd02cfc01bf92c95b873c
+SHA1: 574fb87a899fba9d85f5928961baed13a7991315
+SHA256: 2ab67fb3adeafe25bf12bd8502287e55294374a5e06366a22d0a0faf96d864e0
+Section: Tweaks
+Description: Fixes SSL/TLS protocols and communications from iPhoneOS 2 to iOS 9, so that these devices can talk to any modern cypher-enabled server or service again.
+Author: nfzerox, Requis
+Name: TLSFix
+
+Package: com.vlesscore.app
+Version: 0.4.4-1
+Architecture: iphoneos-arm
+Maintainer: notfence
+Depends: firmware (>= 6.0)
+Filename: ./com.vlesscore.app_iphoneos-arm.deb
+Size: 5479444
+MD5sum: 43ae5000c30665fdb2746367fcf7afb3
+SHA1: 6d7f3ead317037e878b3092595a88f75bb357914
+SHA256: e572be4bcfd8dbb1784d9ed4c3f950971ac98593b1195e8ba8c8508529d2151a
+Section: Networking
+Priority: optional
+Description: Full-device VLESS routing app
+Author: notfence
+Name: vless-core
+
+Package: mobilesubstrate
+Version: 0.9.6301
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594)
+Filename: ./mobilesubstrate_0.9.6301_iphoneos-arm.deb
+Size: 122342
+MD5sum: f2ca15c08aab522d8b7e842238aa83c6
+SHA1: 02ad8dce33adae8ba256dd5a4cac3bdf0246deec
+SHA256: 8dc91a066f088632409fecf65613831b8d6802e3b799f2dc87563c3ea2ed06ca
+Section: System
+Priority: optional
+Description: powerful code insertion platform
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Name: Cydia Substrate
+
